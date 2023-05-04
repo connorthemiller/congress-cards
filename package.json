@@ -11,11 +11,18 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.2",
 		"@sveltejs/kit": "^1.5.0",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"firebase": "^9.20.0",
+		"firebase-tools": "^0.1.6",
+		"g": "^2.0.1",
+		"request": "^2.88.2"
+	}
 }
